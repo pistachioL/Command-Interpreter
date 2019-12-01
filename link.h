@@ -8,4 +8,5 @@ void mkdir();
 void rmdir();
 void reName();
 void copyFile();
+void findFile();
 #endif // LINK_H_INCLUDED

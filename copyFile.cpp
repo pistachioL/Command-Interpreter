@@ -27,7 +27,7 @@ void copyFile()
         }
         else
         {
-            cout << "文件读取失败" <<endl;
+            cout << "文件复制失败！" <<endl;
         }
 
         fclose(psrc);

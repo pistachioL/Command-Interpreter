@@ -7,13 +7,14 @@
 #include "rmdir.cpp"
 #include "rename.cpp"
 #include "copyFile.cpp"
+#include "findFile.cpp"
 using namespace std;
 
 int main()
 {
     while(true)
     {
-        cout << "Linux命令行,请选择要操作的数字："<<endl;
+        cout << "Linux命令行,请选择要操作的命令："<<endl;
         string s;
         cin >> s;
         if(s == "pwd")
@@ -57,6 +58,12 @@ int main()
         if(s == "copy")
         {
             copyFile();
+            cout << endl;
+        }
+
+        if(s == "find")
+        {
+            findFile();
             cout << endl;
         }
 
