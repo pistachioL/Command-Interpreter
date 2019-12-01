@@ -9,7 +9,7 @@
 	<unistd.h>
 	<iostream>
 
-1575183127 source:/home/liao/Documents/Operation_System/LinuxProject/main.cpp
+1575187282 source:/home/liao/Documents/Operation_System/LinuxProject/main.cpp
 	<iostream>
 	"link.h"
 	"pwd.cpp"
@@ -17,8 +17,10 @@
 	"cd.cpp"
 	"mkdir.cpp"
 	"rmdir.cpp"
+	"rename.cpp"
+	"copyFile.cpp"
 
-1575179666 /home/liao/Documents/Operation_System/LinuxProject/link.h
+1575187249 /home/liao/Documents/Operation_System/LinuxProject/link.h
 
 1575177953 /home/liao/Documents/Operation_System/LinuxProject/pwd.cpp
 	<unistd.h>
@@ -45,4 +47,11 @@
 1575186038 /home/liao/Documents/Operation_System/LinuxProject/rmdir.cpp
 	<iostream>
 	<ftw.h>
+
+1575187162 /home/liao/Documents/Operation_System/LinuxProject/rename.cpp
+	<iostream>
+
+1575190133 /home/liao/Documents/Operation_System/LinuxProject/copyFile.cpp
+	<iostream>
+	<fstream>
 
