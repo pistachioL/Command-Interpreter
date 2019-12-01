@@ -1,0 +1,48 @@
+# depslib dependency file v1.0
+1575177965 source:/home/liao/Documents/Operation_System/LinuxProject/list.cpp
+	<iostream>
+	<algorithm>
+	<dirent.h>
+	<string.h>
+
+1575177953 source:/home/liao/Documents/Operation_System/LinuxProject/pwd.cpp
+	<unistd.h>
+	<iostream>
+
+1575183127 source:/home/liao/Documents/Operation_System/LinuxProject/main.cpp
+	<iostream>
+	"link.h"
+	"pwd.cpp"
+	"list.cpp"
+	"cd.cpp"
+	"mkdir.cpp"
+	"rmdir.cpp"
+
+1575179666 /home/liao/Documents/Operation_System/LinuxProject/link.h
+
+1575177953 /home/liao/Documents/Operation_System/LinuxProject/pwd.cpp
+	<unistd.h>
+	<iostream>
+
+1575177965 /home/liao/Documents/Operation_System/LinuxProject/list.cpp
+	<iostream>
+	<algorithm>
+	<dirent.h>
+	<string.h>
+
+1575182974 /home/liao/Documents/Operation_System/LinuxProject/cd.cpp
+	<iostream>
+	<cerrno>
+	<cstring>
+
+1575184884 /home/liao/Documents/Operation_System/LinuxProject/mkdir.cpp
+	<iostream>
+	<sys/stat.h>
+	<sys/types.h>
+	<cerrno>
+	<cstring>
+
+1575186038 /home/liao/Documents/Operation_System/LinuxProject/rmdir.cpp
+	<iostream>
+	<ftw.h>
+
