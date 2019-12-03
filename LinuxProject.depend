@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1575177965 source:/home/liao/Documents/Operation_System/LinuxProject/list.cpp
+1575368113 source:/home/liao/Documents/Operation_System/LinuxProject/list.cpp
 	<iostream>
 	<algorithm>
 	<dirent.h>
@@ -21,24 +21,25 @@
 	"copyFile.cpp"
 	"findFile.cpp"
 
-1575190484 /home/liao/Documents/Operation_System/LinuxProject/link.h
+1575271472 /home/liao/Documents/Operation_System/LinuxProject/link.h
 
-1575177953 /home/liao/Documents/Operation_System/LinuxProject/pwd.cpp
+1575271505 /home/liao/Documents/Operation_System/LinuxProject/pwd.cpp
 	<unistd.h>
 	<iostream>
 
-1575177965 /home/liao/Documents/Operation_System/LinuxProject/list.cpp
+1575368113 /home/liao/Documents/Operation_System/LinuxProject/list.cpp
 	<iostream>
 	<algorithm>
 	<dirent.h>
 	<string.h>
 
-1575182974 /home/liao/Documents/Operation_System/LinuxProject/cd.cpp
+1575368180 /home/liao/Documents/Operation_System/LinuxProject/cd.cpp
 	<iostream>
 	<cerrno>
 	<cstring>
+	<unistd.h>
 
-1575184884 /home/liao/Documents/Operation_System/LinuxProject/mkdir.cpp
+1575377796 /home/liao/Documents/Operation_System/LinuxProject/mkdir.cpp
 	<iostream>
 	<sys/stat.h>
 	<sys/types.h>
@@ -56,7 +57,7 @@
 	<iostream>
 	<fstream>
 
-1575205232 /home/liao/Documents/Operation_System/LinuxProject/findFile.cpp
+1575271505 /home/liao/Documents/Operation_System/LinuxProject/findFile.cpp
 	<iostream>
 	<stdio.h>
 	<string.h>
