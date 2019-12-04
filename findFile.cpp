@@ -5,7 +5,7 @@
 #include <cstring>
 #include <dirent.h>
 using namespace std;
-
+int flag = 1;
 void solve(const char* filepath, const char* filename)
 {
     DIR* dir; //DIR *opendir（const char *name）;
@@ -22,15 +22,17 @@ void solve(const char* filepath, const char* filename)
             else if(strcmp(drip->d_name,filename) == 0)  //输入的路径下有该文件名，则直接输出
             {
                 cout << filepath << "/" << filename <<endl;
-
+                flag = 0;
             }
             else if(drip->d_type == DT_DIR)  //遍历出是一个目录，则继续递归
             {
                 sprintf(childDir,"%s/%s",filepath,drip->d_name);
-                solve(childDir,filename);
+                solve(childDir,filename);  
             }
         }
     }
+    else
+        cout << strerror(2) <<endl;
 
     closedir(dir);
 }
@@ -41,4 +43,8 @@ void findFile()
      string arg;
      cin >> filepath >> arg >> filename;
      solve(filepath,filename);
+     if(flag)
+    {
+        cout << "无" << endl;
+    }
 }

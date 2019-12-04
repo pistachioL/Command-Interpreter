@@ -3,7 +3,8 @@
 #include <sys/types.h>
 #include <cerrno>
 #include <cstring>
-
+#include <unistd.h>
+#include <stdio.h>
 using namespace std;
 //创建目录
 void mkdir()

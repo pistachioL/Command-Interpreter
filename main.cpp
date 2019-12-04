@@ -1,13 +1,6 @@
 #include <iostream>
 #include "link.h"
-#include "pwd.cpp"
-#include "list.cpp"
-#include "cd.cpp"
-#include "mkdir.cpp"
-#include "rmdir.cpp"
-#include "rename.cpp"
-#include "copyFile.cpp"
-#include "findFile.cpp"
+
 using namespace std;
 
 int main()

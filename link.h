@@ -9,5 +9,5 @@ void rmdir();
 void reName();
 void copyFile();
 void findFile();
-void Copy();
+int Copy(char *srcFile,char *desFile);
 #endif // LINK_H_INCLUDED
