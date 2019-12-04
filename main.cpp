@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cstring>
 #include "link.h"
 
 using namespace std;
@@ -8,47 +9,47 @@ int main()
     while(true)
     {
         cout << "Linux命令行,请选择要操作的命令："<<endl;
-        string s;
+        char s[100];
         cin >> s;
-        if(s == "pwd")
+        if(strcmp(s,"pwd") == 0)
         {
             pwd();
             cout << endl;
         }
-        if(s == "list")
+        if(strcmp(s,"list") == 0)
         {
             listAll();
             cout << endl;
         }
-        if(s == "cd")
+        if(strcmp(s,"cd") == 0)
         {
             cd();
             cout << endl;
         }
-        if(s == "mkdir")
+        if(strcmp(s,"mkdir") == 0)
         {
             mkdir();
             cout << endl;
         }
-        if(s == "rmdir")
+        if(strcmp(s,"rmdir") == 0)
         {
             rmdir();
             cout << endl;
         }
 
-        if(s == "exit")
+        if(strcmp(s,"exit") == 0)
         {
             cout << "正在退出命令解析器..." <<endl;
             break;
         }
 
-        if(s == "rename")
+        if(strcmp(s,"rename") == 0)
         {
             reName();
             cout << endl;
         }
 
-        if(s == "copy")
+        if(strcmp(s,"copy") == 0)
         {
             char src[500],dest[500];
             cin >> src >> dest;
@@ -56,7 +57,7 @@ int main()
             cout << endl;
         }
 
-        if(s == "find")
+        if(strcmp(s,"find") == 0)
         {
             findFile();
             cout << endl;

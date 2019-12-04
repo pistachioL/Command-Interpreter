@@ -9,8 +9,8 @@ using namespace std;
 //创建目录
 void mkdir()
 {
-    char dirname[20];
-    cin >> dirname;
+    char dirname[50];
+    cin.getline(dirname,50);  //能读取空格，创建多个文件夹
     int len = strlen(dirname);
     int flag;
     for(int i=0;i<len;i++)
