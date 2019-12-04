@@ -1,6 +1,9 @@
 #include <iostream>
 #include <stdio.h>
 #include <string.h>
+#include <cerrno>
+#include <cstring>
+#include <dirent.h>
 using namespace std;
 
 void solve(const char* filepath, const char* filename)
@@ -28,6 +31,7 @@ void solve(const char* filepath, const char* filename)
             }
         }
     }
+
     closedir(dir);
 }
 
