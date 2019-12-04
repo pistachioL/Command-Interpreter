@@ -57,7 +57,9 @@ int main()
 
         if(s == "copy")
         {
-            copyFile();
+            char src[500],dest[500];
+            cin >> src >> dest;
+            Copy(src,dest);
             cout << endl;
         }
 

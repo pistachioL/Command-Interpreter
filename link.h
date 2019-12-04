@@ -9,4 +9,5 @@ void rmdir();
 void reName();
 void copyFile();
 void findFile();
+void Copy();
 #endif // LINK_H_INCLUDED

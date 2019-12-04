@@ -9,7 +9,7 @@
 	<unistd.h>
 	<iostream>
 
-1575191450 source:/home/liao/Documents/Operation_System/LinuxProject/main.cpp
+1575424126 source:/home/liao/Documents/Operation_System/LinuxProject/main.cpp
 	<iostream>
 	"link.h"
 	"pwd.cpp"
@@ -21,7 +21,7 @@
 	"copyFile.cpp"
 	"findFile.cpp"
 
-1575271472 /home/liao/Documents/Operation_System/LinuxProject/link.h
+1575423680 /home/liao/Documents/Operation_System/LinuxProject/link.h
 
 1575271505 /home/liao/Documents/Operation_System/LinuxProject/pwd.cpp
 	<unistd.h>
@@ -33,31 +33,37 @@
 	<dirent.h>
 	<string.h>
 
-1575368180 /home/liao/Documents/Operation_System/LinuxProject/cd.cpp
+1575421743 /home/liao/Documents/Operation_System/LinuxProject/cd.cpp
 	<iostream>
 	<cerrno>
 	<cstring>
 	<unistd.h>
 
-1575377796 /home/liao/Documents/Operation_System/LinuxProject/mkdir.cpp
+1575390949 /home/liao/Documents/Operation_System/LinuxProject/mkdir.cpp
 	<iostream>
 	<sys/stat.h>
 	<sys/types.h>
 	<cerrno>
 	<cstring>
 
-1575206370 /home/liao/Documents/Operation_System/LinuxProject/rmdir.cpp
+1575390949 /home/liao/Documents/Operation_System/LinuxProject/rmdir.cpp
 	<iostream>
 	<ftw.h>
 
 1575187162 /home/liao/Documents/Operation_System/LinuxProject/rename.cpp
 	<iostream>
 
-1575190452 /home/liao/Documents/Operation_System/LinuxProject/copyFile.cpp
+1575426104 /home/liao/Documents/Operation_System/LinuxProject/copyFile.cpp
 	<iostream>
 	<fstream>
+	<cerrno>
+	<cstring>
+	<sys/types.h>
+	<sys/stat.h>
+	<dirent.h>
+	<unistd.h>
 
-1575271505 /home/liao/Documents/Operation_System/LinuxProject/findFile.cpp
+1575390991 /home/liao/Documents/Operation_System/LinuxProject/findFile.cpp
 	<iostream>
 	<stdio.h>
 	<string.h>
