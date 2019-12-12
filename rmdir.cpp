@@ -12,7 +12,7 @@ int rmFile(const char *pathname, const struct stat *sbuf, int type, struct FTW *
 }
 void rmdir()
 {
-    char dirname[20];
+    char dirname[50];
     cin >> dirname;
 
     //if(rmdir(dirname) == 0)

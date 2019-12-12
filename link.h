@@ -10,4 +10,5 @@ void reName();
 void copyFile();
 void findFile();
 int Copy(char *srcFile,char *desFile);
+
 #endif // LINK_H_INCLUDED

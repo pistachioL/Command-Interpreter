@@ -1,0 +1,58 @@
+# depslib dependency file v1.0
+1576133366 source:/home/liao/Documents/Operation_System/LinuxProject/cd.cpp
+	<iostream>
+	<cerrno>
+	<cstring>
+	<unistd.h>
+
+1576068907 source:/home/liao/Documents/Operation_System/LinuxProject/copyFile.cpp
+	<iostream>
+	<fstream>
+	<cerrno>
+	<cstring>
+	<sys/types.h>
+	<sys/stat.h>
+	<dirent.h>
+	<unistd.h>
+
+1576068936 source:/home/liao/Documents/Operation_System/LinuxProject/findFile.cpp
+	<iostream>
+	<stdio.h>
+	<string.h>
+	<cerrno>
+	<cstring>
+	<dirent.h>
+
+1576133969 source:/home/liao/Documents/Operation_System/LinuxProject/mkdir.cpp
+	<iostream>
+	<sys/stat.h>
+	<sys/types.h>
+	<cerrno>
+	<cstring>
+	<unistd.h>
+	<stdio.h>
+
+1576069085 source:/home/liao/Documents/Operation_System/LinuxProject/rename.cpp
+	<iostream>
+
+1576069116 source:/home/liao/Documents/Operation_System/LinuxProject/rmdir.cpp
+	<iostream>
+	<ftw.h>
+
+1576079106 source:/home/liao/Documents/Operation_System/LinuxProject/list.cpp
+	<iostream>
+	<algorithm>
+	<dirent.h>
+	<string.h>
+
+1576069419 source:/home/liao/Documents/Operation_System/LinuxProject/main.cpp
+	<iostream>
+	<cstring>
+	"link.h"
+
+1576068837 /home/liao/Documents/Operation_System/LinuxProject/link.h
+
+1576071778 source:/home/liao/Documents/Operation_System/LinuxProject/pwd.cpp
+	<unistd.h>
+	<iostream>
+

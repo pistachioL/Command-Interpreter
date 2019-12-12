@@ -27,7 +27,7 @@ void solve(const char* filepath, const char* filename)
             else if(drip->d_type == DT_DIR)  //遍历出是一个目录，则继续递归
             {
                 sprintf(childDir,"%s/%s",filepath,drip->d_name);
-                solve(childDir,filename);  
+                solve(childDir,filename);
             }
         }
     }
